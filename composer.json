@@ -1,6 +1,6 @@
 {
-    "name": "socialiteproviders/live",
-    "description": "Live OAuth2 Provider for Laravel Socialite",
+    "name": "socialiteproviders/microsoft-live",
+    "description": "Microsoft Live OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
         "name": "DraperStudio",
