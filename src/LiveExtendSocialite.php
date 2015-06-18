@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Live;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;

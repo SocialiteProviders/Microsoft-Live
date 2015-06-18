@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Live;
 
 use Laravel\Socialite\Two\AbstractProvider;
@@ -39,7 +40,7 @@ class Provider extends AbstractProvider implements ProviderInterface
             'https://apis.live.net/v5.0/me?access_token='.$token
         );
 
-        return json_decode($response->getBody(), true);
+        return json_decode($response->getBody()->getContents(), true);
     }
 
     /**
